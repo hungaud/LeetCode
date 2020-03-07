@@ -2,6 +2,7 @@ public class LongestPalindrome {
 
     public static void main(String[] args) {
         String res = longestPalindrome("abba");
+        System.out.println(res);
     }
 
     public static String longestPalindrome(String s) {

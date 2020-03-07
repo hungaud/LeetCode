@@ -43,7 +43,7 @@ public class CriticalRouter {
             dfs(graph, numNodes, n);
         }
 
-        // too lazy to change method signature to ArrayList<> just return dummy arr here b/c its late af
+        // too lazy to change method signature to ArrayList<> just return dummy arr here b/c its 3 am
 
         return res;
     }
