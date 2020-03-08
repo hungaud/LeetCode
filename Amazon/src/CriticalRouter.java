@@ -16,6 +16,7 @@ public class CriticalRouter {
 
 
         };
+
         int[] arr = criticalNodes(numNodes, numEdges, edges);
         for(int n : result) {
             System.out.println(n);
