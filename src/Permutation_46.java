@@ -32,8 +32,6 @@ public class Permutation_46 {
 
                 }
             }
-
-
         }
     }
 }
