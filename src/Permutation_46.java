@@ -5,7 +5,7 @@ import java.util.List;
 public class Permutation_46 {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3};
+        int[] arr = new int[]{0, 1, 2};
         List<List<Integer>> list = permute(arr);
         System.out.println(list.toString());
     }

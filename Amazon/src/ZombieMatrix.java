@@ -3,7 +3,7 @@ import java.util.*;
 public class ZombieMatrix {
 
     public static void main(String[] args) {
-        int rows = 4;
+        int rows = 5;
         int columns = 5;
         List<List<Integer>> grid = createGrid();
         System.out.println("Start: ");
@@ -13,15 +13,17 @@ public class ZombieMatrix {
     }
     private static List<List<Integer>> createGrid() {
         List<List<Integer>> res = new ArrayList<>();
-        List<Integer> a = new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0));
-        List<Integer> b = new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0));
-        List<Integer> c = new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0));
-        List<Integer> d = new ArrayList<>(Arrays.asList(0, 0, 0, 0, 0));
+        List<Integer> a = new ArrayList<>(Arrays.asList(1, 0, 0, 0, 0));
+        List<Integer> b = new ArrayList<>(Arrays.asList(0, 1, 0, 0, 0));
+        List<Integer> c = new ArrayList<>(Arrays.asList(0, 0, 1, 0, 0));
+        List<Integer> d = new ArrayList<>(Arrays.asList(0, 0, 0, 1, 0));
+        List<Integer> e = new ArrayList<>(Arrays.asList(0, 0, 0, 0, 1));
 
         res.add(a);
         res.add(b);
         res.add(c);
         res.add(d);
+        res.add(e);
         return res;
     }
 

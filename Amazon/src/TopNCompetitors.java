@@ -4,15 +4,10 @@ public class TopNCompetitors {
 
     public static void main(String[] args) {
         int numToys = 6;
-        int topToys = 8;
-        String[] toys = new String[] {"elmo", "elsa", "legos", "drone", "tablet", "warcraft"};
+        int topToys = 5;
+        String[] toys = new String[] {"'"};
         String[] quotes = new String[] {
-                "Elmo is the hottest of the season! Elmo will be on every kid's wishlist!",
-                "The new Elmo dolls are super high quality",
-                "Expect the Elsa dolls to be very popular this year, Elsa!",
-                "Elsa and Elmo are the toys I'll be buying for my kids,  is good",
-                "For parents of older kids, look into buying them a elsa drone",
-                "Warcraft is slowly rising drone drone drone in popularity ahead of the holiday season"
+                "'"
 
         };
         List<String> result = getTopToys(numToys, topToys, toys, quotes);
@@ -75,6 +70,4 @@ public class TopNCompetitors {
 
         return result;
     }
-
-
 }
