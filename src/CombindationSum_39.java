@@ -12,7 +12,7 @@ public class CombindationSum_39 {
 
     public static List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> list = new ArrayList<>();
-        Arrays.sort(candidates);
+        //Arrays.sort(candidates);
         getCombos(candidates, target, 0, new ArrayList<>(), list, 0);
         return list;
     }
