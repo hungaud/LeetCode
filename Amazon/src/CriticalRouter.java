@@ -49,9 +49,9 @@ public class CriticalRouter {
         return res;
     }
 
-    // this will check if ban nodes will break the graph.
+    // tthis will check if ban nodes will break the graph.
     // when visted isnt same as one less size of nodes. add the ban.
-    // if it is the same. means all other nodes were able to hit. so just return
+    // if it is the same. means all other nodes were able to hi. so just return
     private static void dfs(HashMap<Integer, HashSet<Integer>> graph, int numNodes, int ban) {
         for(int key : graph.keySet()){
             if(key == ban) continue;
