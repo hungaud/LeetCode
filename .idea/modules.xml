@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Microsoft/Microsoft.iml" filepath="$PROJECT_DIR$/Microsoft/Microsoft.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programming-Exercise.iml" filepath="$PROJECT_DIR$/Programming-Exercise.iml" />
     </modules>
   </component>
