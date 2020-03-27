@@ -3,8 +3,8 @@ import java.util.HashSet;
 public class WordSearch_79 {
 
     public static void main(String[] args) {
-        String s = "ASA";
-        char[][] board = new char[][] {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
+        String s = "ABCCDE";
+        char[][] board = new char[][] {{'A', 'B', 'C', 'D', 'E'}, {'S', 'F', 'C', 'B', 'A'}};
         System.out.println(exist(board, s));
     }
 

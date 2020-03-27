@@ -62,7 +62,6 @@ public class CriticalConnection {
                 dfs(i, parents, visted, low, graph, res);
             }
         }
-
         count = 0;
         return res;
     }
