@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fca8057-a823-4d80-97d2-38ca86ef6cb6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Microsoft/Microsoft.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecodeWays_92.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TrappingRainWater_42.java" afterDir="false" />
+    <list default="true" id="0fca8057-a823-4d80-97d2-38ca86ef6cb6" name="Default" comment="add more leetcode">
+      <change afterPath="$PROJECT_DIR$/Apple/Apple.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/src/MostTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microsoft/src/ConstructBinaryTreePreOrderInOrder_105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microsoft/src/SerializeAndDeserializeBinaryTree_297.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompressString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/CriticalConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/CriticalConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordSearch_79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordSearch_79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BuildTreeFromArray$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BuildTreeFromArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/DeepCopyList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/DeepCopyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/DiameterTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/DiameterTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LongestPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/MaxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/MoveZeroes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/RomanToInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ThreeSum.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +45,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/DecodeWays_92.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1ZhQ1CMEhYQKqLJXu2BxogBmiPV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,22 +58,47 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Hung Auduong.000/Documents/LeetCode/src/SearchTreeTest.java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Amazon/src/TopNCompetitors.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Amazon/src/TopNCompetitors.java" />
   </component>
-  <component name="RunManager" selected="Application.DecodeWays_92">
+  <component name="RunManager" selected="Application.ConstructBinaryTreePreOrderInOrder_105">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Atoi_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atoi_8" />
+      <module name="Programming-Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompressString" />
+      <module name="Programming-Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructBinaryTreePreOrderInOrder_105" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConstructBinaryTreePreOrderInOrder_105" />
+      <module name="Microsoft" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DecodeWays_92" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DecodeWays_92" />
@@ -68,33 +108,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumLengthConcatenatedString_1239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumLengthConcatenatedString_1239" />
+    <configuration name="SerializeAndDeserializeBinaryTree_297" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SerializeAndDeserializeBinaryTree_297" />
       <module name="Microsoft" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrappingRainWater_42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TrappingRainWater_42" />
-      <module name="Programming-Exercise" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordLadder_127" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordLadder_127" />
-      <module name="Programming-Exercise" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordSearch_79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordSearch_79" />
-      <module name="Programming-Exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,18 +162,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DecodeWays_92" />
-      <item itemvalue="Application.MaximumLengthConcatenatedString_1239" />
-      <item itemvalue="Application.TrappingRainWater_42" />
-      <item itemvalue="Application.WordLadder_127" />
-      <item itemvalue="Application.WordSearch_79" />
+      <item itemvalue="Application.Atoi_8" />
+      <item itemvalue="Application.CompressString" />
+      <item itemvalue="Application.SerializeAndDeserializeBinaryTree_297" />
+      <item itemvalue="Application.ConstructBinaryTreePreOrderInOrder_105" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructBinaryTreePreOrderInOrder_105" />
+        <item itemvalue="Application.SerializeAndDeserializeBinaryTree_297" />
+        <item itemvalue="Application.CompressString" />
+        <item itemvalue="Application.Atoi_8" />
         <item itemvalue="Application.DecodeWays_92" />
-        <item itemvalue="Application.TrappingRainWater_42" />
-        <item itemvalue="Application.WordSearch_79" />
-        <item itemvalue="Application.WordLadder_127" />
-        <item itemvalue="Application.MaximumLengthConcatenatedString_1239" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584928195876</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add more leetcode">
+      <created>1585289203862</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585289203862</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,10 +271,54 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="705" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585288641581" />
-    <state x="734" y="213" key="SettingsEditor" timestamp="1585289022448">
+    <state x="636" y="62" key="CommitChangelistDialog2" timestamp="1585289203298">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="734" y="213" key="SettingsEditor/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585289022448" />
+    <state x="636" y="62" key="CommitChangelistDialog2/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585289203298" />
+    <state width="412" height="646" key="DebuggerActiveHint" timestamp="1585559211796">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="412" height="646" key="DebuggerActiveHint/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585559211796" />
+    <state width="1737" height="937" key="GridCell.Tab.0.bottom" timestamp="1585559775999">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1737" height="937" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585559775999" />
+    <state width="1737" height="937" key="GridCell.Tab.0.center" timestamp="1585559775998">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1737" height="937" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585559775998" />
+    <state width="1737" height="937" key="GridCell.Tab.0.left" timestamp="1585559775998">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1737" height="937" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585559775998" />
+    <state width="1737" height="937" key="GridCell.Tab.0.right" timestamp="1585559775999">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1737" height="937" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585559775999" />
+    <state width="1737" height="937" key="GridCell.Tab.1.bottom" timestamp="1585559776153">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1737" height="937" key="GridCell.Tab.1.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585559776153" />
+    <state width="1737" height="937" key="GridCell.Tab.1.center" timestamp="1585559776153">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1737" height="937" key="GridCell.Tab.1.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585559776153" />
+    <state width="1737" height="937" key="GridCell.Tab.1.left" timestamp="1585559776153">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1737" height="937" key="GridCell.Tab.1.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585559776153" />
+    <state width="1737" height="937" key="GridCell.Tab.1.right" timestamp="1585559776153">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1737" height="937" key="GridCell.Tab.1.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585559776153" />
+    <state x="734" y="213" key="SettingsEditor" timestamp="1585478082325">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="734" y="213" key="SettingsEditor/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585478082325" />
+    <state x="465" y="131" key="new project wizard" timestamp="1585291769081">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="465" y="131" key="new project wizard/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585291769081" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -364,6 +431,16 @@
           <url>file://$PROJECT_DIR$/src/DecodeWays_92.java</url>
           <line>15</line>
           <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Microsoft/src/SerializeAndDeserializeBinaryTree_297.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Microsoft/src/ConstructBinaryTreePreOrderInOrder_105.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
