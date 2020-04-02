@@ -5,7 +5,7 @@ import java.util.List;
 public class MaximumLengthConcatenatedString_1239 {
 
     public static void main (String[] args) {
-        String[] arr = new String[] {"ab", "cd", "ef", "ghic"};
+        String[] arr = new String[] {"cha", "act","ers"};
         List<String> list = Arrays.asList(arr);
         System.out.println(maxLength(list));
     }

@@ -17,7 +17,9 @@ public class ConstructBinaryTreePreOrderInOrder_105 {
     }
 
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
-        TreeNode root = buildTree(0, preorder.length - 1, preorder, inorder);
+        //TreeNode root = buildTree(0, preorder.length - 1, preorder, inorder);
+        TreeNode root = buildTree2(0, 0, preorder.length - 1, preorder, inorder);
+
         return root;
     }
 
@@ -35,6 +37,18 @@ public class ConstructBinaryTreePreOrderInOrder_105 {
 
 
         return node;
+    }
+
+    public static TreeNode buildTree2(int preStart, int inStart, int inEnd, int[] preorder, int[] inorder) {
+        if (preStart > preorder.length - 1 || inStart > inEnd) {
+            return null;
+        }
+        TreeNode root = new TreeNode(preorder[preStart]);
+        int inIndex = findIndex(inorder, root.val, inStart, inEnd);
+
+        root.left = buildTree2(preStart + 1, inStart, inIndex - 1, preorder, inorder);
+        root.right = buildTree2(preStart + inIndex - inStart + 1, inIndex + 1, inEnd, preorder, inorder);
+        return root;
     }
 
     private static int findIndex(int[] arr, int num, int start, int end) {
