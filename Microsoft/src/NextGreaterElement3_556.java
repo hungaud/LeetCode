@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class NextGreaterElement3_556 {
 
     public static void main(String[] args) {
-        int n = 321;
+        int n = 534972;
         System.out.println(nextGreaterElement(n));
     }
 
