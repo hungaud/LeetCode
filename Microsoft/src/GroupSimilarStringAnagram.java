@@ -11,7 +11,7 @@ public class GroupSimilarStringAnagram {
         for (String s : strs) {
             Set<Character> ch = new HashSet<>();
             for(int i=0;i<s.length();i++)
-                ch.add(Character.toLowerCase(s.charAt(i)));
+                ch.add(s.toLowerCase().charAt(i));
             Arrays.sort(ch.toArray());
 
             String key = String.valueOf(ch);
