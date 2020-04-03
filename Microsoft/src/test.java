@@ -54,8 +54,6 @@ class MyCode {
                 max = Math.max(sameLetter + 1, max);
             } else if (sameLetter == currentMax) {
                 max = Math.max(sameLetter, max);
-            } else {
-                max = Math.max(max, index - start - 1);
             }
             if(index >= letters.length) {
                 break;
