@@ -6,27 +6,52 @@ public class LongestPalindrome {
     }
 
     public static String longestPalindrome(String s) {
-        char[] ca = s.toCharArray();
-        int rs = 0, re = 0;
+        int len = s.length();
+        boolean[][] matrix = new boolean[len][len];
+        char[] arr = s.toCharArray();
+
+        String result = "";
         int max = 0;
-        for(int i = 0; i < ca.length; i++) {
-            if(isPalindrome(ca, i - max - 1, i)) {
-                rs = i - max - 1; re = i;
-                max += 2;
-            } else if(isPalindrome(ca, i - max, i)) {
-                rs = i - max; re = i;
-                max += 1;
+        //string length == 1
+        for(int i = 0; i < len; i++) {
+            matrix[i][i] = true;
+            if (max < 1) {
+                result = getSubstring(s, i, i + 1);
+                max = 1;
+
             }
         }
-        return s.substring(rs, re + 1);
+
+        // length == 2
+        for(int i = 0; i < len - 1; i++) {
+            if(arr[i] == arr[i + 1]) {
+                matrix[i][i + 1] = true;
+                if ( max < 2) {
+                    max = 2;
+                    result = getSubstring(s, i, i + 2);
+
+                }
+            }
+        }
+
+        // length >= 3
+        for(int i = 3; i <= len; i++) {
+            for(int start = 0; start + i <= len; start++) {
+                int end = start + i - 1;
+                boolean sameLetter = arr[start] == arr[end];
+                if(sameLetter && matrix[start + 1][end - 1]) {
+                    matrix[start][end] = true;
+                    if (max < i){
+                        result = getSubstring(s, start, end + 1);
+                        max = i;
+                    }
+                }
+            }
+        }
+        return result;
     }
 
-    private static boolean isPalindrome(char[] ca, int s, int e) {
-        if(s < 0) return false;
-
-        while(s < e) {
-            if(ca[s++] != ca[e--]) return false;
-        }
-        return true;
+    private static String getSubstring(String s, int start, int end) {
+        return s.substring(start, end);
     }
 }
