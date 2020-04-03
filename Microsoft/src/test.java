@@ -49,7 +49,9 @@ class MyCode {
             }
             int currentMax = freq.get(c);
 
-            // there are more same letter, so it can be swapped. but if index is at len, then its off by 1, and would need to add 1
+            // if there is less same letter than current letters max, then i can add 1 to the count
+            // if they are the same, means no swap is needed.
+            // same letter is never greater than current max b/c current max is already precalculated.
             if(sameLetter < currentMax) {
                 max = Math.max(sameLetter + 1, max);
             } else if (sameLetter == currentMax) {
