@@ -13,8 +13,10 @@ class MyCode {
         System.out.println(LongestSubStringSwap("aaaadadd") + " Should be: 5");
         System.out.println(LongestSubStringSwap("aadadd") + " Should be: 3");
         System.out.println(LongestSubStringSwap("aadaddd") + " Should be: 4");
+        System.out.println(LongestSubStringSwap("baababbb") + " Should be: 5");
         System.out.println(LongestSubStringSwap("asdfasdfaaa") + " Should be: 4");
         System.out.println(LongestSubStringSwap("abc") + " Should be: 1");
+        System.out.println(LongestSubStringSwap("aaaabaaa") + " Should be: 7");
         System.out.println(LongestSubStringSwap("") + " Should be: 0");
     }
 
@@ -57,10 +59,7 @@ class MyCode {
             } else if (sameLetter == currentMax) {
                 max = Math.max(sameLetter, max);
             }
-            if(index >= letters.length) {
-                break;
-            }
-            start = next;
+            start = index == letters.length ? index : next;
             index = start;
         }
         return max;

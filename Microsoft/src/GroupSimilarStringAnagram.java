@@ -7,7 +7,7 @@ public class GroupSimilarStringAnagram {
     }
 
     public static List<List<String>> groupAnagrams(String[] strs) {
-        Map<String, List> ans = new HashMap<String, List>();
+        Map<String, List> ans = new HashMap<>();
         for (String s : strs) {
             Set<Character> ch = new HashSet<>();
             for(int i=0;i<s.length();i++)
