@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fca8057-a823-4d80-97d2-38ca86ef6cb6" name="Default" comment="add more leetcode">
-      <change afterPath="$PROJECT_DIR$/GeeksToGeeks/GeeksToGeeks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksToGeeks/src/SearchDict_CharArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microsoft/src/BestTimeToBuySellStocksIndices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microsoft/src/GroupSimilarStringAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microsoft/src/PossibleValidWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiplyWithoutOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseOnlyLetter_917.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TowerOfHanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeleteNodeFromBST_450.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming-Exercise/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming-Exercise/LongestPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming-Exercise/MaxSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming-Exercise/MaxSubArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microsoft/src/LongestSubstringWithoutThreeContLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/Microsoft/src/LongestSubstringWithoutThreeContLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecodeWays_92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecodeWays_92.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +22,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>elsa</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,7 +62,7 @@
       <recent name="C:\Users\Hung Auduong.000\Documents\LeetCode\Microsoft" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PossibleValidWords">
+  <component name="RunManager" selected="Application.LongestSubstringWithoutThreeContLetters">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -85,41 +70,41 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxSubArray" />
+    <configuration name="DecodeWays_92" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecodeWays_92" />
       <module name="Programming-Exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PossibleValidWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PossibleValidWords" />
+    <configuration name="DeleteNodeFromBST_450" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeleteNodeFromBST_450" />
+      <module name="Programming-Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupSimilarStringAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GroupSimilarStringAnagram" />
       <module name="Microsoft" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseOnlyLetter_917" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseOnlyLetter_917" />
-      <module name="Programming-Exercise" />
+    <configuration name="LongestSubstringWithoutThreeContLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestSubstringWithoutThreeContLetters" />
+      <module name="Microsoft" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchDict_CharArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchDict_CharArray" />
-      <module name="GeeksToGeeks" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TowerOfHanoi" />
-      <module name="Programming-Exercise" />
+    <configuration name="PrintElementsBetween2positions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintElementsBetween2positions" />
+      <module name="Microsoft" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxSubArray" />
-      <item itemvalue="Application.TowerOfHanoi" />
-      <item itemvalue="Application.ReverseOnlyLetter_917" />
-      <item itemvalue="Application.SearchDict_CharArray" />
-      <item itemvalue="Application.PossibleValidWords" />
+      <item itemvalue="Application.DeleteNodeFromBST_450" />
+      <item itemvalue="Application.DecodeWays_92" />
+      <item itemvalue="Application.PrintElementsBetween2positions" />
+      <item itemvalue="Application.GroupSimilarStringAnagram" />
+      <item itemvalue="Application.LongestSubstringWithoutThreeContLetters" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PossibleValidWords" />
-        <item itemvalue="Application.SearchDict_CharArray" />
-        <item itemvalue="Application.ReverseOnlyLetter_917" />
-        <item itemvalue="Application.TowerOfHanoi" />
-        <item itemvalue="Application.MaxSubArray" />
+        <item itemvalue="Application.LongestSubstringWithoutThreeContLetters" />
+        <item itemvalue="Application.GroupSimilarStringAnagram" />
+        <item itemvalue="Application.PrintElementsBetween2positions" />
+        <item itemvalue="Application.DecodeWays_92" />
+        <item itemvalue="Application.DeleteNodeFromBST_450" />
       </list>
     </recent_temporary>
   </component>
@@ -281,14 +266,66 @@
       <option name="project" value="LOCAL" />
       <updated>1585817530433</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add more leetcode">
+      <created>1585901462185</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585901462185</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add more leetcode">
+      <created>1585954311146</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585954311146</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add more leetcode">
+      <created>1585954328413</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585954328413</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix bug">
+      <created>1585957053629</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585957053629</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add more leetcode">
+      <created>1585957082182</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1585957082182</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add more comments">
+      <created>1585957160641</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585957160641</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add some codility">
+      <created>1587203979678</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587203979678</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add 79" />
     <MESSAGE value="add more leetcode and learning solutions" />
+    <MESSAGE value="fix bug" />
     <MESSAGE value="add more leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more leetcode" />
+    <MESSAGE value="add more comments" />
+    <MESSAGE value="Add some codility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some codility" />
   </component>
   <component name="WindowStateProjectService">
     <state x="705" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585288641581">
@@ -299,58 +336,75 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-804" y="206" key="#xdebugger.XInspectDialog/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585710743250" />
-    <state x="636" y="62" key="CommitChangelistDialog2" timestamp="1585901434383">
+    <state x="636" y="62" key="CommitChangelistDialog2" timestamp="1587203978823">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="636" y="62" key="CommitChangelistDialog2/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585901434383" />
-    <state width="412" height="646" key="DebuggerActiveHint" timestamp="1585810278979">
+    <state x="636" y="62" key="CommitChangelistDialog2/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1587203978823" />
+    <state width="412" height="646" key="DebuggerActiveHint" timestamp="1586417623279">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="412" height="646" key="DebuggerActiveHint/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585810278979" />
-    <state width="2005" height="193" key="GridCell.Tab.0.bottom" timestamp="1585901434421">
+    <state width="408" height="605" key="DebuggerActiveHint/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586411604460" />
+    <state width="412" height="646" key="DebuggerActiveHint/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1586417623279" />
+    <state width="2005" height="363" key="GridCell.Tab.0.bottom" timestamp="1587204280911">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="193" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585901434421" />
-    <state width="2005" height="193" key="GridCell.Tab.0.center" timestamp="1585901434421">
+    <state width="1530" height="940" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586472285425" />
+    <state width="2005" height="363" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1587204280911" />
+    <state width="2005" height="363" key="GridCell.Tab.0.center" timestamp="1587204280911">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="193" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585901434421" />
-    <state width="2005" height="193" key="GridCell.Tab.0.left" timestamp="1585901434421">
+    <state width="1530" height="940" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586472285425" />
+    <state width="2005" height="363" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1587204280911" />
+    <state width="2005" height="363" key="GridCell.Tab.0.left" timestamp="1587204280911">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="193" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585901434421" />
-    <state width="2005" height="193" key="GridCell.Tab.0.right" timestamp="1585901434421">
+    <state width="1530" height="940" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586472285425" />
+    <state width="2005" height="363" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1587204280911" />
+    <state width="2005" height="363" key="GridCell.Tab.0.right" timestamp="1587204280911">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="193" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585901434421" />
-    <state width="1528" height="938" key="GridCell.Tab.1.bottom" timestamp="1585888858831">
+    <state width="1530" height="940" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586472285425" />
+    <state width="2005" height="363" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1587204280911" />
+    <state width="1530" height="940" key="GridCell.Tab.1.bottom" timestamp="1587203710905">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1528" height="938" key="GridCell.Tab.1.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585888858831" />
-    <state width="1528" height="938" key="GridCell.Tab.1.center" timestamp="1585888858831">
+    <state width="1530" height="940" key="GridCell.Tab.1.bottom/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586472285694" />
+    <state width="1530" height="940" key="GridCell.Tab.1.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1587203710905" />
+    <state width="1530" height="940" key="GridCell.Tab.1.center" timestamp="1587203710904">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1528" height="938" key="GridCell.Tab.1.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585888858831" />
-    <state width="1528" height="938" key="GridCell.Tab.1.left" timestamp="1585888858831">
+    <state width="1530" height="940" key="GridCell.Tab.1.center/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586472285694" />
+    <state width="1530" height="940" key="GridCell.Tab.1.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1587203710904" />
+    <state width="1530" height="940" key="GridCell.Tab.1.left" timestamp="1587203710904">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1528" height="938" key="GridCell.Tab.1.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585888858831" />
-    <state width="1528" height="938" key="GridCell.Tab.1.right" timestamp="1585888858831">
+    <state width="1530" height="940" key="GridCell.Tab.1.left/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586472285694" />
+    <state width="1530" height="940" key="GridCell.Tab.1.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1587203710904" />
+    <state width="1530" height="940" key="GridCell.Tab.1.right" timestamp="1587203710904">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1528" height="938" key="GridCell.Tab.1.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585888858831" />
+    <state width="1530" height="940" key="GridCell.Tab.1.right/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586472285694" />
+    <state width="1530" height="940" key="GridCell.Tab.1.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1587203710904" />
     <state x="988" y="173" width="981" height="707" key="SettingsEditor" timestamp="1585735472833">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="988" y="173" width="981" height="707" key="SettingsEditor/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585735472833" />
-    <state x="617" y="285" key="Vcs.Push.Dialog.v2" timestamp="1585817544404">
+    <state x="617" y="285" key="Vcs.Push.Dialog.v2" timestamp="1587203981033">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="285" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585817544404" />
-    <state x="465" y="131" key="new project wizard" timestamp="1585900242152">
+    <state x="617" y="285" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1587203981033" />
+    <state x="709" y="130" width="629" height="852" key="find.popup" timestamp="1586763881853">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="465" y="131" key="new project wizard/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585900242152" />
+    <state x="709" y="130" width="629" height="852" key="find.popup/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1586763881853" />
+    <state x="465" y="131" key="new project wizard" timestamp="1586311641212">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="465" y="131" key="new project wizard/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1586311641212" />
+    <state x="747" y="461" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586568621804">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="747" y="461" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1586568621804" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -501,11 +555,6 @@
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Microsoft/src/GroupSimilarStringAnagram.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Microsoft/src/BestTimeToBuySellStocksIndices.java</url>
           <line>10</line>
           <option name="timeStamp" value="134" />
@@ -524,6 +573,31 @@
           <url>file://$PROJECT_DIR$/src/TowerOfHanoi.java</url>
           <line>17</line>
           <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Microsoft/src/ConstructBinaryTreePreOrderInOrder_105.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Microsoft/src/test.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Microsoft/src/test.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Microsoft/src/BoundaryOfBinaryTree_545.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Microsoft/src/GroupSimilarStringAnagram.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="152" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

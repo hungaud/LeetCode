@@ -5,7 +5,7 @@ public class DecodeWays_92 {
 
     // will need to do the actual one.
     public static void main(String[] args) {
-        String num = "2263";
+        String num = "52422423";
         System.out.println(getStrings(num));
     }
 

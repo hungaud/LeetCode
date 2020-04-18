@@ -4,8 +4,10 @@ Given a string s containing only a and b, find longest substring of s such that 
  */
 
 public class LongestSubstringWithoutThreeContLetters {
-    static String[] testStrings = new String[]     {"aabbaaaaabb", "aabbaabbaabbaa", "aaabaaa", "a", "", "abbaabbaaabbaaa", "aaabb", "aabbaabbbaabbaa", "aaaaaaaaaaaaaaa"};
-    static String[] expectedResult = new String[]  {"aabbaa", "aabbaabbaabbaa", "aabaa", "a", "", "abbaabbaa", "aabb", "aabbaabb", "aa"};
+    static String[] testStrings = new String[] {"aabbaaaaabb", "aabbaabbaabbaa", "aaabaaa", "a", "", "abbaabbaaabbaaa", "aaabb", "aabbaabbbaabbaa", "aaaaaaaaaaaaaaa", "abbaaabbaabb", "babba",
+        "bbbbbbbbbbbaaaaaaaaaabbabb"};
+    static String[] expectedResult = new String[] {"aabbaa", "aabbaabbaabbaa", "aabaa", "a", "", "abbaabbaa", "aabb", "aabbaabb", "aa", "aabbaabb", "babba",
+        "aabbabb"};
 
     public static void main(String[] args) {
         int passedTest = 0;
