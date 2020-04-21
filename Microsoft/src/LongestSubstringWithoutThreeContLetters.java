@@ -44,13 +44,11 @@ public class LongestSubstringWithoutThreeContLetters {
                 res = s.substring(start, end);
 
             if(count > 2) {
-                // end--;
                 start = end - 1;
                 count = 1;
             } else {
                 end++;
             }
-
         }
 
         if(end - start > res.length())
