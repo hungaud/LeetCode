@@ -22,7 +22,7 @@ public class LongestSubstringWithoutThreeContLetters {
                 passedTest++;
         }
         if(passedTest == testStrings.length)
-            System.out.println("All test passed");
+            System.out.println("All test passed!");
     }
 
     private static String validSubstring(String s) {

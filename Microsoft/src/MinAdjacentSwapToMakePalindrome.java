@@ -3,10 +3,12 @@ Given a string, what is the minimum number of adjacent swaps required to convert
  */
 
 
+import java.util.Arrays;
+
 public class MinAdjacentSwapToMakePalindrome {
 
-    static String[] testStrings = new String[] {"mamad", "asflkj", "aabb", "ntiin"};
-    static int[] expectedResult = new int[] {3, -1, 2, 1};
+    static String[] testStrings = new String[] {"mamad", "asflkj", "aabb", "ntiin","daamm"};
+    static int[] expectedResult = new int[] {3, -1, 2, 1, 4};
 
     public static void main(String[] args) {
         int passedTests = 0;
@@ -24,7 +26,7 @@ public class MinAdjacentSwapToMakePalindrome {
     }
 
     private static int getNumSwap(String s) {
-        int swap = 0;
+        int swapCount = 0;
         char[] arr = s.toCharArray();
         int left = 0;
         int right = arr.length - 1;
@@ -41,18 +43,30 @@ public class MinAdjacentSwapToMakePalindrome {
                     rightCur--;
                 }
                 // no match was found. not able to get palindrome
-                if(leftCur == right)
+                if(leftCur == right) {
                     return -1;
-                //int swapIndex = matchLeft == arr[rightCur] ? rightCur : leftCur;
+                } else if (matchLeft == arr[rightCur]) {
+                    while(rightCur != right) {
+                        swap(arr, rightCur, rightCur + 1);
+                        rightCur++;
+                        swapCount++;
+                    }
+                } else {
+                    while (leftCur != left) {
+                        swap(arr, leftCur, leftCur - 1);
+                        leftCur--;
+                        swapCount++;
+                    }
+                }
             }
             left++;
             right --;
         }
-
-        return swap;
+        System.out.println(Arrays.toString(arr));
+        return swapCount;
     }
 
-    private void swap(char[] arr, int i, int j) {
+    private static void swap(char[] arr, int i, int j) {
         char temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
